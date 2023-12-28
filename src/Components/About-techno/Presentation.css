@@ -1,0 +1,39 @@
+.presentation {
+  display: flex;
+  gap: 5rem;
+}
+
+.part {
+  position: relative;
+  z-index: 1;
+  width: 50%;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.9rem;
+  margin: 7rem 0;
+}
+
+.shadow-title {
+  position: absolute;
+  top: -12px;
+  z-index: -1;
+  font-size: 4.2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+/* ICON PART */
+
+.wrapper-icons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper-icons img {
+  width: 6rem;
+  filter: grayscale(100%);
+}
+
+.wrapper-icons img:hover {
+  filter: grayscale(0%);
+}

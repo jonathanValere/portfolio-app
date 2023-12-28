@@ -18,18 +18,19 @@
   font-size: 1.7rem;
   color: #fff;
   line-height: 2.5rem;
+  margin-top: 1rem;
 }
 
 .banner span {
   background-color: #fff;
   color: var(--primary-color);
-  padding: 0 1rem;
+  padding: 0.4rem 1rem;
 }
 
 .banner p:last-child {
   font-weight: 100;
   font-size: 1.4rem;
-  line-height: 1.9rem;
+  line-height: 2.1rem;
 }
 
 .banner img {
