@@ -1,0 +1,11 @@
+.primary-color {
+  background-color: var(--primary-color);
+}
+
+.blue {
+  background-color: blue;
+}
+
+.white {
+  background-color: #fff;
+}
