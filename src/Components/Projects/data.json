@@ -3,21 +3,21 @@
     "id": 1,
     "name": "Réplique Vinted",
     "img": "/assets/img/vinted.png",
-    "descripiton": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A culpa impedit voluptate sapiente? Quod nesciunt ullam consequuntur quia eaque asperiores, natus sunt ut! Illo facere dicta commodi nesciunt alias nam!",
-    "techno": "JavaScript, React, Express"
+    "description": "Description Vinted Lorem ipsum dolor sit amet consectetur adipisicing elit. A culpa impedit voluptate sapiente? Quod nesciunt ullam consequuntur quia eaque asperiores, natus sunt ut! Illo facere dicta commodi nesciunt alias nam!",
+    "techno": ["JavaScript", "React", "Express"]
   },
   {
     "id": 2,
     "name": "Réplique Marvel",
     "img": "/assets/img/marvel.png",
-    "descripiton": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A culpa impedit voluptate sapiente? Quod nesciunt ullam consequuntur quia eaque asperiores, natus sunt ut! Illo facere dicta commodi nesciunt alias nam!",
-    "techno": "JavaScript, React, Express"
+    "description": "Description Marvel Lorem ipsum dolor sit amet consectetur adipisicing elit. A culpa impedit voluptate sapiente? Quod nesciunt ullam consequuntur quia eaque asperiores, natus sunt ut! Illo facere dicta commodi nesciunt alias nam!",
+    "techno": ["JavaScript", "React", "Express"]
   },
   {
     "id": 3,
-    "name": "Réplique Marvel",
+    "name": "Réplique TripAdvisor",
     "img": "/assets/img/tripadvisor.png",
-    "descripiton": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A culpa impedit voluptate sapiente? Quod nesciunt ullam consequuntur quia eaque asperiores, natus sunt ut! Illo facere dicta commodi nesciunt alias nam!",
-    "techno": "JavaScript, React, Express"
+    "description": "Description Tripadvisor Lorem ipsum dolor sit amet consectetur adipisicing elit. A culpa impedit voluptate sapiente? Quod nesciunt ullam consequuntur quia eaque asperiores, natus sunt ut! Illo facere dicta commodi nesciunt alias nam!",
+    "techno": ["HTML", "CSS"]
   }
 ]

@@ -1,8 +1,8 @@
-export default function TitlePart({ displayMore, more, name }) {
+export default function TitlePart({ projet, displayMore, more }) {
   return (
     <div className="project-part-title">
       <h4>
-        {name} <span>|</span>
+        <span>|</span> {projet.name ? projet.name : "Réplique Vinted"}
       </h4>
       <button
         onClick={displayMore}

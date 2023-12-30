@@ -1,7 +1,7 @@
-export default function DetailsSquelette({ category, detail }) {
+export default function DetailsSquelette({ label, detail }) {
   return (
     <p>
-      <span>{category} : </span>
+      <span>{label} : </span>
       {detail}
     </p>
   );

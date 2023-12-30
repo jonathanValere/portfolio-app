@@ -1,32 +1,43 @@
 import imageVinted from "/assets/img/vinted.png";
 import DetailsSquelette from "./DetailsSquelette";
 
-export default function DetailsProject({ more, name, closeMore }) {
+export default function DetailsProject({ more, closeMore, projet }) {
   return (
     <article className="details-project">
       {more ? (
         <div className="more-information">
-          <DetailsSquelette category="Intitulé du projet" detail={name} />
           <DetailsSquelette
-            category="Description"
-            detail="Lorem ipsum dolor sit amet consectetur adipisicing elit. A culpa
-            impedit voluptate sapiente? Quod nesciunt ullam consequuntur quia
-            eaque asperiores, natus sunt ut! Illo facere dicta commodi nesciunt
-            alias nam!"
+            label="Intitulé du projet"
+            detail={projet.name ? projet.name : "Réplique vinted"}
           />
           <DetailsSquelette
-            category="Technologies"
-            detail="JavaScript, React, Express"
+            label="Description"
+            detail={projet.description ? projet.description : "Contenu Vinted"}
           />
-          <button onClick={closeMore} className="btn-project">
-            <i className="fa-solid fa-xmark"></i> Fermer
-          </button>
-          <button className="btn-project">
-            Voir le projet <i className="fa-solid fa-angle-right"></i>
-          </button>
+          <DetailsSquelette
+            label="Technologies"
+            detail={
+              projet.techno
+                ? projet.techno.map((e) => (
+                    <span className="language">{e}</span>
+                  ))
+                : "techno vinted"
+            }
+          />
+          <div className="details-buttons">
+            <button onClick={closeMore} className="btn-project">
+              <i className="fa-solid fa-xmark"></i> Fermer
+            </button>
+            <button className="btn-project">
+              Voir le projet <i className="fa-solid fa-angle-right"></i>
+            </button>
+          </div>
         </div>
       ) : (
-        <img src={imageVinted} alt={`image ${imageVinted}`} />
+        <img
+          src={projet.img ? projet.img : imageVinted}
+          alt={`image ${imageVinted}`}
+        />
       )}
     </article>
   );
