@@ -1,11 +1,11 @@
 import "../About-techno/Presentation.css";
+import SubtitleSection from "../SubtitleSection";
 
 export default function Article({ children, title }) {
   return (
     <article className="part">
-      <h3>{title}</h3>
-      <p className="shadow-title">{title}</p>
-      <>{children}</>
+      <SubtitleSection subtitle={title} color="blue" />
+      {children}
     </article>
   );
 }

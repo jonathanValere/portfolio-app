@@ -4,7 +4,7 @@ export default function Banner() {
   return (
     <div className="container banner">
       <article className="part">
-        <h2>Jonathan VALERE</h2>
+        <h1>Jonathan VALERE</h1>
         <p>
           <span>
             {"< "}Développeur d'Applications Web & Mobile {" />"}

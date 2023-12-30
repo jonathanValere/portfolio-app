@@ -12,7 +12,7 @@ export default function Header() {
         </p>
       </div>
       <button className="menu-smartphone">
-        <i class="fa-solid fa-bars"></i>
+        <i className="fa-solid fa-bars"></i>
       </button>
       <ul className="menu">
         <li>
@@ -29,7 +29,7 @@ export default function Header() {
         </li>
         <li>
           <a href="#">
-            <i class="fa-solid fa-moon"></i>
+            <i className="fa-solid fa-moon"></i>
           </a>
         </li>
       </ul>

@@ -4,6 +4,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .branding {
@@ -41,8 +45,8 @@ header {
   text-decoration: none;
   color: black;
   transition: var(--transition);
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 1.1rem;
+  font-weight: 400;
 }
 
 .menu a:hover {

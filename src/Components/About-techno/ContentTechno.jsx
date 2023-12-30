@@ -10,8 +10,9 @@ import htmlLogo from "../../assets/img/icons/HTML.svg";
 import cssLogo from "../../assets/img/icons/CSS.svg";
 import jestLogo from "../../assets/img/icons/Jest.svg";
 import gitLogo from "../../assets/img/icons/git.svg";
+import tailwindLogo from "../../assets/img/icons/tailwind-css.svg";
 
-export default function Techno() {
+export default function ContentTechno() {
   return (
     <div className="wrapper-icons">
       <img src={reactLogo} alt="Logo de React" />
@@ -26,6 +27,7 @@ export default function Techno() {
       <img src={typescriptLogo} alt="Logo de Typescript" />
       <img src={jestLogo} alt="Logo de Jest" />
       <img src={gitLogo} alt="Logo de Git" />
+      <img src={tailwindLogo} alt="Logo de Tailwind" />
     </div>
   );
 }
