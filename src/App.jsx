@@ -1,26 +1,23 @@
 import "./App.css";
 import Header from "./Components/Header/Header";
 import Main from "./Components/Main";
-import Section from "./Components/Section/Section";
 import Banner from "./Components/Banner/Banner";
-import Articles from "./Components/About-techno/Articles";
-import Projects from "./Components/Projects/Projects";
+import SectionTechnoAbout from "./Components/About-techno/SectionTechnoAbout";
+import SectionProjects from "./Components/Projects/SectionProjects";
+import SectionContact from "./Components/Contact/SectionContact";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
     <>
       <Header />
       <Main>
-        <Section>
-          <Banner />
-        </Section>
-        <Section color="bg-third-color">
-          <Articles />
-        </Section>
-        <Section>
-          <Projects />
-        </Section>
+        <Banner />
+        <SectionTechnoAbout />
+        <SectionProjects />
+        <SectionContact />
       </Main>
+      <Footer />
     </>
   );
 }

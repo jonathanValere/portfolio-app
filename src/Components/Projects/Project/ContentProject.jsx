@@ -3,8 +3,7 @@ import { useState } from "react";
 import TitlePart from "./TitlePart";
 import DetailsProject from "./DetailsProject";
 
-export default function ContentProject({ projet, name }) {
-  console.log("Content project >>", projet);
+export default function ContentProject({ projet }) {
   // State
   const [more, setMore] = useState(false);
   // Gestion "plus d'informations"

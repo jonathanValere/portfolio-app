@@ -97,9 +97,9 @@ h4 span {
 }
 
 .thumbnail {
-  width: 15rem;
+  width: 13rem;
   border-radius: 4px;
-  height: 9rem;
+  height: 8rem;
   object-fit: cover;
   transition: var(--transition);
 }
