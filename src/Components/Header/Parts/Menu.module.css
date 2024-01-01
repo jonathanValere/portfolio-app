@@ -1,0 +1,40 @@
+/* MENU */
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  transition: var(--transition);
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.menu a:hover {
+  color: var(--primary-color);
+  transition: var(--transition);
+}
+
+.menu li:last-child {
+  margin-left: 2rem;
+}
+
+.menuSmartphone {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .menuSmartphone {
+    display: inherit;
+    font-size: 1.5rem;
+    border: none;
+    background-color: #fff;
+  }
+}

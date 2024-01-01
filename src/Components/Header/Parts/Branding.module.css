@@ -1,0 +1,38 @@
+.branding {
+  display: flex;
+  align-items: end;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: rgb(47, 47, 47);
+}
+
+.branding span {
+  font-weight: 300;
+  font-size: 1rem;
+  color: var(--primary-color);
+}
+
+.branding img {
+  width: 3rem;
+  margin-right: 1rem;
+}
+
+.branding:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .branding img {
+    width: 3rem;
+  }
+
+  .branding,
+  .branding span {
+    font-size: 0.5rem;
+  }
+
+  .branding p {
+    display: none;
+  }
+}

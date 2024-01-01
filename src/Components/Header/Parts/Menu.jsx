@@ -1,10 +1,12 @@
+import classes from "./Menu.module.css";
+
 export default function Menu() {
   return (
     <>
-      <button className="menu-smartphone">
+      <button className={classes.menuSmartphone}>
         <i className="fa-solid fa-bars"></i>
       </button>
-      <ul className="menu">
+      <ul className={classes.menu}>
         <li>
           <a href="#">A propos</a>
         </li>
