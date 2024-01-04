@@ -1,11 +1,12 @@
-import Section from "../Section/Section";
+import styles from "./Footer.module.css";
+let currentDateYear = new Date().getFullYear();
 
 export default function Footer() {
   return (
-    <Section>
-      <div className="container">
-        <footer>Section footer</footer>
-      </div>
-    </Section>
+    <section className={styles.section}>
+      <p className={styles.p}>
+        © {currentDateYear} | Jonathan VALERE | Télécharger CV
+      </p>
+    </section>
   );
 }

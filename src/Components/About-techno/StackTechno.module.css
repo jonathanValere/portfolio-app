@@ -1,0 +1,15 @@
+.stack {
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.stack:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.important {
+  font-weight: 500;
+  color: var(--secondary-color);
+}

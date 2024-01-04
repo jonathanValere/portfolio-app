@@ -1,23 +1,22 @@
-import classes from "./Menu.module.css";
+import styles from "./Menu.module.css";
 
 export default function Menu() {
   return (
     <>
-      <button className={classes.menuSmartphone}>
+      <button className={styles.menuSmartphone}>
         <i className="fa-solid fa-bars"></i>
       </button>
-      <ul className={classes.menu}>
+      <ul className={styles.menu}>
         <li>
-          <a href="#">A propos</a>
+          <a href="#about">A propos</a>
         </li>
         <li>
-          <a href="#">Compétences</a>
+          <a href="#projects">Projets</a>
         </li>
         <li>
-          <a href="#">Projets</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
+          <a className={styles.call} href="#contact">
+            Contact
+          </a>
         </li>
         <li>
           <a href="#">

@@ -7,7 +7,7 @@ import ContentTechno from "./ContentTechno";
 export default function SectionTechnoAbout() {
   return (
     <>
-      <Section color="bg-third-color">
+      <Section color="bg-third-color" id="about">
         <Articles>
           <Article title="About me">
             <ContentAbout />

@@ -1,0 +1,28 @@
+.halfPart {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.9rem;
+  background-color: var(--third-color);
+  padding: 7rem;
+}
+
+.bg-primary-color {
+  background-color: var(--primary-color);
+}
+
+.container {
+  padding: 2rem;
+}
+
+h5 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.third-color {
+  color: var(--third-color);
+}

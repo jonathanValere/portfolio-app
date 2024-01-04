@@ -7,14 +7,14 @@
 
 .menu a {
   text-decoration: none;
-  color: black;
+  color: var(--secondary-color);
   transition: var(--transition);
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 400;
 }
 
 .menu a:hover {
-  color: var(--primary-color);
+  color: var(--btn-primary-color);
   transition: var(--transition);
 }
 
@@ -25,6 +25,18 @@
 .menuSmartphone {
   display: none;
 }
+/* Bouton contact */
+.call {
+  background-color: var(--btn-primary-color);
+  padding: 0.3rem 1rem;
+  border-radius: 5px;
+  border: 2px solid var(--btn-primary-color);
+}
+
+.call:hover {
+  background-color: #fff;
+}
+/* ------------ */
 
 @media (max-width: 768px) {
   .menu {

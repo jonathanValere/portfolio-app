@@ -19,7 +19,9 @@ export default function DetailsProject({ more, closeMore, projet }) {
             detail={
               projet.techno
                 ? projet.techno.map((e) => (
-                    <span className="language">{e}</span>
+                    <span key={e} className="language">
+                      {e}
+                    </span>
                   ))
                 : "techno vinted"
             }

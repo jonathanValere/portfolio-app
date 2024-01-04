@@ -3,14 +3,16 @@
 :root {
   font-family: "Kanit", sans-serif;
   --transition: all 0.4s ease-in-out;
-  --primary-color: #05b6d3;
-  --secondary-color: #424242;
+  --primary-color: #219ebc;
+  --secondary-color: #023047;
   --third-color: #f1f1f1;
+  --btn-primary-color: #fb8500;
+  --btn-secondary-color: #ffb703;
 }
 
 ::selection {
   background-color: var(--primary-color);
-  color: #fff;
+  color: var(--third-color);
 }
 
 .primary-color {
@@ -38,7 +40,7 @@
 }
 
 body {
-  background-color: rgb(66, 66, 66);
+  background-color: var(--secondary-color);
 }
 
 .container {
@@ -59,7 +61,7 @@ h2 {
   font-size: 3.2rem;
   font-weight: 600;
   margin-bottom: 2.5rem;
-  color: #424242;
+  color: var(--secondary-color);
 }
 
 .shadow-title {
@@ -74,7 +76,7 @@ h2 {
 h3 {
   font-size: 3rem;
   font-weight: 700;
-  color: #fff;
+  color: var(--third-color);
   margin-bottom: 2rem;
 }
 
@@ -96,8 +98,9 @@ button {
 }
 
 button:hover {
-  background-color: #272727;
-  border: 2px solid #272727;
+  background-color: var(--btn-primary-color);
+  border: 2px solid var(--btn-primary-color);
+  color: var(--third-color);
   transition: var(--transition);
   cursor: pointer;
 }
@@ -110,4 +113,12 @@ button:hover {
   h2 {
     font-size: 2.5rem;
   }
+}
+
+/* FORM */
+::placeholder {
+  color: rgb(136, 136, 136);
+  font-size: 0.9rem;
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
 }

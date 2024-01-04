@@ -10,7 +10,7 @@ import data from "./data.json";
 export default function SectionProjects() {
   const [project, setProject] = useState(1);
   return (
-    <Section>
+    <Section id="projects">
       <Projects>
         <SubtitleSection subtitle="Projets" color="third-color" />
         <Project>

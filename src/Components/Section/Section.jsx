@@ -1,3 +1,7 @@
-export default function Section({ color, children }) {
-  return <section className={color}>{children}</section>;
+export default function Section({ color, id, children }) {
+  return (
+    <section className={color} id={id}>
+      {children}
+    </section>
+  );
 }

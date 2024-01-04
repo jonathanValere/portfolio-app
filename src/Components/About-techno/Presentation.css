@@ -6,7 +6,7 @@
 .part {
   position: relative;
   z-index: 1;
-  width: 50%;
+  width: 100%;
   font-size: 1.2rem;
   font-weight: 300;
   line-height: 1.9rem;
@@ -22,13 +22,19 @@
 
 /* ICON PART */
 
+.wrapper-technos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
 .wrapper-icons {
   display: flex;
   flex-wrap: wrap;
 }
 
 .wrapper-icons img {
-  width: 6rem;
+  width: 4rem;
   filter: grayscale(100%);
 }
 

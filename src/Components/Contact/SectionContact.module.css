@@ -1,0 +1,30 @@
+.section {
+  padding: 0;
+}
+
+.section p {
+  font-weight: 100;
+}
+
+.parts {
+  display: flex;
+}
+
+.rs {
+  display: flex;
+  font-size: 5rem;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 4rem;
+}
+
+.rs a {
+  transition: var(--transition);
+  color: var(--third-color);
+}
+
+.rs a:hover {
+  color: var(--btn-primary-color);
+  transition: var(--transition);
+  cursor: pointer;
+}
