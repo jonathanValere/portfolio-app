@@ -13,3 +13,8 @@
   font-weight: 500;
   color: var(--secondary-color);
 }
+
+.nameTechno {
+  text-align: center;
+  font-weight: 100;
+}
