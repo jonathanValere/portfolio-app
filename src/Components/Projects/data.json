@@ -4,6 +4,7 @@
     "name": "Réplique Vinted",
     "img": "/assets/img/vinted.png",
     "description": "Description Vinted Lorem ipsum dolor sit amet consectetur adipisicing elit. A culpa impedit voluptate sapiente? Quod nesciunt ullam consequuntur quia eaque asperiores, natus sunt ut! Illo facere dicta commodi nesciunt alias nam!",
+    "url": "https://vinted-jv.netlify.app/",
     "techno": ["JavaScript", "React", "Express"]
   },
   {
@@ -11,6 +12,7 @@
     "name": "Réplique Marvel",
     "img": "/assets/img/marvel.png",
     "description": "Description Marvel Lorem ipsum dolor sit amet consectetur adipisicing elit. A culpa impedit voluptate sapiente? Quod nesciunt ullam consequuntur quia eaque asperiores, natus sunt ut! Illo facere dicta commodi nesciunt alias nam!",
+    "url": "https://marvel-jv.netlify.app/",
     "techno": ["JavaScript", "React", "Express"]
   },
   {
@@ -18,6 +20,7 @@
     "name": "Réplique TripAdvisor",
     "img": "/assets/img/tripadvisor.png",
     "description": "Description Tripadvisor Lorem ipsum dolor sit amet consectetur adipisicing elit. A culpa impedit voluptate sapiente? Quod nesciunt ullam consequuntur quia eaque asperiores, natus sunt ut! Illo facere dicta commodi nesciunt alias nam!",
+    "url": "https://tripadvisor-replique-jv.netlify.app/",
     "techno": ["HTML", "CSS"]
   }
 ]

@@ -1,7 +1,15 @@
+import { useNavigate, Link } from "react-router-dom";
+
 import imageVinted from "/assets/img/vinted.png";
 import DetailsSquelette from "./DetailsSquelette";
 
 export default function DetailsProject({ more, closeMore, projet }) {
+  const navigate = useNavigate();
+
+  const goToProject = () => {
+    navigate(projet.url);
+  };
+
   return (
     <article className="details-project">
       {more ? (
@@ -30,9 +38,10 @@ export default function DetailsProject({ more, closeMore, projet }) {
             <button onClick={closeMore} className="btn-project">
               <i className="fa-solid fa-xmark"></i> Fermer
             </button>
-            <button className="btn-project">
+
+            <Link className="link-goToProject" to={projet.url} target="blank">
               Voir le projet <i className="fa-solid fa-angle-right"></i>
-            </button>
+            </Link>
           </div>
         </div>
       ) : (

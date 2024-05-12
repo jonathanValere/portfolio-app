@@ -7,9 +7,11 @@ import SectionProjects from "./Components/Projects/SectionProjects";
 import SectionContact from "./Components/Contact/SectionContact";
 import Footer from "./Components/Footer/Footer";
 
+import { BrowserRouter as Router } from "react-router-dom";
+
 function App() {
   return (
-    <>
+    <Router>
       <Header />
       <Main>
         <Banner />
@@ -18,7 +20,7 @@ function App() {
         <SectionContact />
       </Main>
       <Footer />
-    </>
+    </Router>
   );
 }
 
