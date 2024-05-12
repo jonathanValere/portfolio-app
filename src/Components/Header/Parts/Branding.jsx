@@ -8,7 +8,7 @@ export default function Branding() {
       <p className={classes.paragraph}>
         Jonathan VALERE <br />
         <span className={classes.span}>
-          Développeur d'Applications Web & Mobile
+          Formateur numérique | Concepteur d'applications web & mobile
         </span>
       </p>
     </div>

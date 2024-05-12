@@ -10,13 +10,14 @@ export default function Banner() {
           <h1>Jonathan VALERE</h1>
           <p>
             <span>
-              {"< "}Développeur d'Applications Web & Mobile {" />"}
+              {"< "}Formateur numérique | Développeur d'Applications Web &
+              Mobile {" />"}
             </span>
           </p>
           <p>
-            Conjuguer innovation, fonctionnalité et esthétique dans chaque ligne
-            de code. Ensemble, créons une expérience en ligne captivante et
-            personnalisée pour votre public cible.
+            De l'<span className="strongWord">inclusion numérique</span> à la
+            <span className="strongWord"> conception d'applications</span>,
+            embarquez avec moi pour une aventure palpitante 🚀
           </p>
         </article>
         <img src={illusDevice} alt="Illustration code" />

@@ -28,13 +28,20 @@
 
 .banner p:last-child {
   font-weight: 100;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   line-height: 2.1rem;
 }
 
 .banner img {
   width: 45%;
   scale: 1.1;
+}
+
+.banner .strongWord {
+  color: #229ebc;
+  background-color: #023047;
+  font-weight: bold;
+  padding: 0;
 }
 
 /* RESPONSIVE */

@@ -1,4 +1,6 @@
 import StackTechno from "./StackTechno";
+import { motion } from "framer-motion";
+
 // stack front --
 import javascriptLogo from "../../assets/img/icons/javascript.svg";
 import typescriptLogo from "../../assets/img/icons/typescript.svg";

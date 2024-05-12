@@ -1,8 +1,16 @@
 import { useState } from "react";
+import { motion } from "framer-motion";
 import styles from "./StackTechno.module.css";
 
 export default function StackTechno({ title, logos }) {
   const [techno, setTechno] = useState(" ");
+
+  // Animation motion --
+  const variants = {
+    visible: { opacity: 1 },
+    hidden: { opacity: 0 },
+  };
+  // --------------
 
   const handleMouseOver = (url) => {
     const techno = url.split("/").pop().split(".")[0].toUpperCase();
@@ -29,12 +37,17 @@ export default function StackTechno({ title, logos }) {
   };
 
   return (
-    <div className={styles.stack}>
+    <motion.div
+      className={styles.stack}
+      variants={variants}
+      initial="hidden"
+      animate="visible"
+    >
       <p>
         <strong className={styles.important}>{title}</strong>
       </p>
       <ListLogos />
       <p className={styles.nameTechno}>{techno}</p>
-    </div>
+    </motion.div>
   );
 }
