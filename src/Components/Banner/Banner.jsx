@@ -10,8 +10,8 @@ export default function Banner() {
           <h1>Jonathan VALERE</h1>
           <p>
             <span>
-              {"< "}Formateur numérique | Développeur d'Applications Web &
-              Mobile {" />"}
+              {"< "}Formateur numérique | Concepteur d'applications web & mobile{" "}
+              {" />"}
             </span>
           </p>
           <p>
