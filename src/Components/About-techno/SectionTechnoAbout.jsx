@@ -9,7 +9,7 @@ export default function SectionTechnoAbout() {
     <>
       <Section color="bg-third-color" id="about">
         <Articles>
-          <Article title="A propos">
+          <Article title="Conception d'applications">
             <ContentAbout />
           </Article>
           <Article title="Technologies">
